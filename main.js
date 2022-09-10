@@ -41,6 +41,7 @@
 
 //removing the first element of an array
  // Shift
+ 
 
 // let arr = [30, 50, 80, 155, 777];
 
@@ -55,6 +56,8 @@
 
 //Push
 
+
+
 // let arr = [30, 50, 80, 155, 777];
 
 // arr.push(333, 555)
@@ -65,6 +68,8 @@
 //....................................................................................
 
 //adding an element to the beginning of an array
+
+
 // let arr = [30, 50, 80, 155, 777];
 
 // arr.unshift('Luk', 'Skywoker')
@@ -85,3 +90,13 @@ let b = a.map(function(num)
 });
 
 console.log(b);
+
+//..........................................
+// cycle For
+
+
+let a = [30, 50, 80, 155, 777, -11];
+for (let i=0; i<a.length; i++){
+    a[i] = a[i] *2;
+}
+ console.log(a);
