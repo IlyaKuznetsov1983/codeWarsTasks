@@ -81,22 +81,42 @@
 // array method 
 // map
 
-let a = [30, 50, 80, 155, 777, -11];
+// let a = [30, 50, 80, 155, 777, -11];
 
-let b = a.map(function(num) 
+// let b = a.map(function(num) 
 
-{return num * 2;
+// {return num * 2;
 
-});
+// });
 
-console.log(b);
+// console.log(b);
 
 //..........................................
 // cycle For
 
 
-let a = [30, 50, 80, 155, 777, -11];
-for (let i=0; i<a.length; i++){
-    a[i] = a[i] *2;
+// let a = [30, 50, 80, 155, 777, -11];
+// for (let i=0; i<a.length; i++){
+//     a[i] = a[i] *2;
+// }
+//  console.log(a);
+
+
+//...............................................
+ 
+// This
+
+function Person(fn, ln) {
+	this.first_name = fn;
+	this.last_name = ln;
+
+	this.displayName = function() {
+		console.log(`Name: ${this.first_name} ${this.last_name}`);
+	}
 }
- console.log(a);
+
+let person = new Person("John", "Reed");
+person.displayName();  // Prints Name: John Reed
+let person2 = new Person("Paul", "Adams");
+person2.displayName();  // Prints Name: Paul Adams
+
