@@ -70,3 +70,18 @@
 // arr.unshift('Luk', 'Skywoker')
 
 // console.log(arr);
+
+
+//...........................................................................
+// array method 
+// map
+
+let a = [30, 50, 80, 155, 777, -11];
+
+let b = a.map(function(num) 
+
+{return num * 2;
+
+});
+
+console.log(b);
