@@ -123,8 +123,18 @@
 
 // TypeOf
 
-function typeOfSum(a, b) {
+// function typeOfSum(a, b) {
 	
-	return typeof(a + b);
+// 	return typeof(a + b);
 
-}
+// }
+ 
+
+//////////////////////////PROMISE
+
+let promise = new Promise(function (resolve, reject){
+
+    setTimeout(() =>resolve('good'), 1500);
+});
+
+promise.then (result => alert(result));
